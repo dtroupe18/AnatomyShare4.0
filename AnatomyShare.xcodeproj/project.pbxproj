@@ -10,9 +10,8 @@
 		1798E7B341B81EA2FAE55B41 /* Pods_AnatomyShareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D39DB337C00B729E2014A2 /* Pods_AnatomyShareTests.framework */; };
 		1BF81D4AAAB2FDF989CE1C32 /* Pods_AnatomyShareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7B4CCA475802644E7EB543 /* Pods_AnatomyShareUITests.framework */; };
 		55523C0920A288BD00B41C8B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55523C0820A288BD00B41C8B /* GoogleService-Info.plist */; };
+		558C941320AF9BE900487E04 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558C941220AF9BE900487E04 /* Login.storyboard */; };
 		5591072120A268BB00EB12E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591072020A268BB00EB12E5 /* AppDelegate.swift */; };
-		5591072320A268BB00EB12E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591072220A268BB00EB12E5 /* ViewController.swift */; };
-		5591072620A268BB00EB12E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5591072420A268BB00EB12E5 /* Main.storyboard */; };
 		5591072820A268BC00EB12E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5591072720A268BC00EB12E5 /* Assets.xcassets */; };
 		5591072B20A268BC00EB12E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5591072920A268BC00EB12E5 /* LaunchScreen.storyboard */; };
 		5591073620A268BC00EB12E5 /* AnatomyShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591073520A268BC00EB12E5 /* AnatomyShareTests.swift */; };
@@ -41,10 +40,9 @@
 		0A5CDC51DF62C73703C0379B /* Pods-AnatomyShareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnatomyShareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnatomyShareUITests/Pods-AnatomyShareUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1EA781B59AA2B557B01C1377 /* Pods-AnatomyShareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnatomyShareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnatomyShareTests/Pods-AnatomyShareTests.release.xcconfig"; sourceTree = "<group>"; };
 		55523C0820A288BD00B41C8B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		558C941220AF9BE900487E04 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		5591071D20A268BB00EB12E5 /* AnatomyShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnatomyShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5591072020A268BB00EB12E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5591072220A268BB00EB12E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5591072520A268BB00EB12E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5591072720A268BC00EB12E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5591072A20A268BC00EB12E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5591072C20A268BC00EB12E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,6 +145,14 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		558C941120AF9BBA00487E04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				558C941220AF9BE900487E04 /* Login.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5591071420A268BB00EB12E5 = {
 			isa = PBXGroup;
 			children = (
@@ -172,15 +178,14 @@
 		5591071F20A268BB00EB12E5 /* AnatomyShare */ = {
 			isa = PBXGroup;
 			children = (
+				5591072020A268BB00EB12E5 /* AppDelegate.swift */,
 				55523C0A20A32AE600B41C8B /* Data Models */,
 				55523C0C20A32B0500B41C8B /* View Models */,
 				55523C0B20A32AF600B41C8B /* Controllers */,
+				558C941120AF9BBA00487E04 /* Views */,
 				55523C0E20A32BDA00B41C8B /* Cells */,
 				55523C0D20A32B3700B41C8B /* Extensions */,
-				5591072020A268BB00EB12E5 /* AppDelegate.swift */,
 				55523C0720A2888400B41C8B /* Supporting Files */,
-				5591072220A268BB00EB12E5 /* ViewController.swift */,
-				5591072420A268BB00EB12E5 /* Main.storyboard */,
 			);
 			path = AnatomyShare;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 				5591072D20A268BC00EB12E5 /* Sources */,
 				5591072E20A268BC00EB12E5 /* Frameworks */,
 				5591072F20A268BC00EB12E5 /* Resources */,
+				B4911DB0AC089F2031A83C0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,10 +331,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558C941320AF9BE900487E04 /* Login.storyboard in Resources */,
 				5591072B20A268BC00EB12E5 /* LaunchScreen.storyboard in Resources */,
 				55523C0920A288BD00B41C8B /* GoogleService-Info.plist in Resources */,
 				5591072820A268BC00EB12E5 /* Assets.xcassets in Resources */,
-				5591072620A268BB00EB12E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,10 +363,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AnatomyShare/Pods-AnatomyShare-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ColorSlider/ColorSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -369,10 +375,10 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ColorSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -433,6 +439,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B4911DB0AC089F2031A83C0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AnatomyShareTests/Pods-AnatomyShareTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Mockingjay/Mockingjay.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/URITemplate/URITemplate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mockingjay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URITemplate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnatomyShareTests/Pods-AnatomyShareTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E26F48E27CA9A028D2B300C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -458,7 +488,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5591072320A268BB00EB12E5 /* ViewController.swift in Sources */,
 				5591072120A268BB00EB12E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,14 +524,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5591072420A268BB00EB12E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5591072520A268BB00EB12E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5591072920A268BC00EB12E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -637,10 +658,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = D3D7B5BPEZ;
 				INFOPLIST_FILE = "$(SRCROOT)/AnatomyShare/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HighTreeDevelopment.AnatomyShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -656,10 +674,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3D7B5BPEZ;
 				INFOPLIST_FILE = "$(SRCROOT)/AnatomyShare/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HighTreeDevelopment.AnatomyShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -676,11 +691,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3D7B5BPEZ;
 				INFOPLIST_FILE = AnatomyShareTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HighTreeDevelopment.AnatomyShareTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -698,11 +709,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3D7B5BPEZ;
 				INFOPLIST_FILE = AnatomyShareTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HighTreeDevelopment.AnatomyShareTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -719,11 +726,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3D7B5BPEZ;
 				INFOPLIST_FILE = AnatomyShareUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HighTreeDevelopment.AnatomyShareUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -740,11 +743,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D3D7B5BPEZ;
 				INFOPLIST_FILE = AnatomyShareUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HighTreeDevelopment.AnatomyShareUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
